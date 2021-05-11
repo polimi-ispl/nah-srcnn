@@ -17,3 +17,5 @@ The proposed encoder processes an input of 8x8 and it is composed of four layers
 The decoder D reverses the encoder architecture taking as input the bottleneck embedding and performing up-convolutions with stride 2×2 with the following number of filters: v) 32, vi) 16, vii) 8. The skip connections are obtained by concatenating pairwise the encoder layers with the corresponding layers of the decoder.
 
 Furthermore, the super-resolution section consists of two up-convolution blocks with asymmetric strides 1×2 followed by ReLU and Batch Normalization, and a last layer with strides 2×2. This allows us to reach the desired dimensions 16×64 at the output.
+
+![alt text](https://github.com/polimi-ispl/nah-srcnn/blob/main/images/srcnn_architecture.png)
