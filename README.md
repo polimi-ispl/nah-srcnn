@@ -19,3 +19,5 @@ The decoder D reverses the encoder architecture taking as input the bottleneck e
 Furthermore, the super-resolution section consists of two up-convolution blocks with asymmetric strides 1×2 followed by ReLU and Batch Normalization, and a last layer with strides 2×2. This allows us to reach the desired dimensions 16×64 at the output.
 
 ![alt text](https://github.com/polimi-ispl/nah-srcnn/blob/main/images/srcnn_architecture.png)
+
+## About the code
