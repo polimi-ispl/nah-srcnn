@@ -21,3 +21,30 @@ Furthermore, the super-resolution section consists of two up-convolution blocks 
 ![alt text](https://github.com/polimi-ispl/nah-srcnn/blob/main/images/srcnn_architecture.png)
 
 ## About the code
+The repo code is structured in the following folders:
+nah-srcnn
+├── _"src"_ contains the following scipts:
+│    ├── _"srcnn_architecture.ipynb"_ contains the proposed architecture.
+│    └── _"example.ipynb"_ contains a complete explanation for using the architecture. In particular you can find the test phase related to the paper reconstruction 
+├── _"data"_ contains the weights to test the trained model, the acoustic pressure measurements and velocity, ground truth and the violin binary masks realted to the reconstruction examples to use in the _example.ipynb_ file. All data are save in pickle format. 
+
+
+* _"src"_ contains the following scipts:
+  * _"srcnn_architecture.ipynb"_ contains the proposed architecture.
+  * _"example.ipynb"_ contains a complete explanation for using the architecture. In particular you can find the test phase related to the paper reconstruction examples.
+* _"data"_ contains the weights to test the trained model, the acoustic pressure measurements and velocity, ground truth and the violin binary masks realted to the reconstruction examples to use in the _example.ipynb_ file. All data are save in pickle format.
+
+All the code file is given in Notebook files in order to provide complete explanations.
+Scripts are exportable in Python language and the installation of the following modules is required:
+* numpy
+* tensorflow
+* keras
+* sklearn.metrics
+* pickle (for reading and writing files such as datasets and saved models)
+* matplotlib.pyplot (for data visualization with plots)
+
+## Other materials
+nah-srcnn
+├── _"media"_
+    ├── _"EUSIPCO21_poster.pdf"_ Poster of the paper presented at EUSIPCO21
+    └── _"EUSIPCO21_presentation.mov"_ Video presentation of the paper showed at EUSIPCO21
