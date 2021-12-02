@@ -1,5 +1,5 @@
 # Near field Acoustic Holography on arbitrary shapes using Convolutional Neural Network
-Repository of ["Near field Acoustic Holography on arbitrary shapes using Convolutional Neural Network"](https://arxiv.org/abs/2103.16935) 
+Repository of ["Near field Acoustic Holography on arbitrary shapes using Convolutional Neural Network"](https://eurasip.org/Proceedings/Eusipco/Eusipco2021/pdfs/0000121.pdf) 
 
 M. Olivieri, M. Pezzoli, F. Antonacci, A. Sarti
 
